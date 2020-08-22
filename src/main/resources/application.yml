@@ -1,0 +1,21 @@
+jdbc:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/guishan?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+  username: root
+  password: shiyuan
+
+logging:
+  level:
+    com.ezerror: debug
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/guishan?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+#    username: root
+#    password: shiyuan
+server:
+  port: 8888
+  servlet:
+    context-path: /
+mybatis:
+  type-aliases-package: com.ezerror.pojo
